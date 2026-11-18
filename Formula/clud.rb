@@ -7,23 +7,23 @@ class Clud < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/talos-hq/clud/releases/download/v2.8.65/clud-2.8.65-aarch64-apple-darwin"
-      sha256 "9ef95c420fdeb21a7b1accb7622a2b223fe47faac1d6b750b9fd81e3478bb3c7"
+      url "https://github.com/talos-hq/clud/releases/download/2.8.67/clud-2.8.67-aarch64-apple-darwin"
+      sha256 "444d3fcd95532d04e22b9b9bb1c520d19d1441c8df4e21f86d7d1483906ba9de"
     end
     on_intel do
-      url "https://github.com/talos-hq/clud/releases/download/v2.8.65/clud-2.8.65-x86_64-apple-darwin"
-      sha256 "ce05d334d61e836a3a019511d91c7548cc23803354f5d72c6d18bdda66d1a1be"
+      url "https://github.com/talos-hq/clud/releases/download/2.8.67/clud-2.8.67-x86_64-apple-darwin"
+      sha256 "1cfbad1cbbb74d6f2284c50c95f1cb6eafa088481824e43c73594ca000e2cca8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/talos-hq/clud/releases/download/v2.8.65/clud-2.8.65-aarch64-unknown-linux-musl"
-      sha256 "f466991376739c5407f18fb6c4cea6a5631d5d331aacacd13672b934000916d4"
+      url "https://github.com/talos-hq/clud/releases/download/2.8.67/clud-2.8.67-aarch64-unknown-linux-musl"
+      sha256 "93c25cb0b53f4e099b0ebf879e037548b898c4a4e53daeea7cd62488e570949f"
     end
     on_intel do
-      url "https://github.com/talos-hq/clud/releases/download/v2.8.65/clud-2.8.65-x86_64-unknown-linux-musl"
-      sha256 "7c83f828a64e42f9fad1c777fa44218b4ba56e8bb2ab60155f0c6c3c4bbebd95"
+      url "https://github.com/talos-hq/clud/releases/download/2.8.67/clud-2.8.67-x86_64-unknown-linux-musl"
+      sha256 "979d6100cf92bdfcdc91f03b82694fc687799621b3cc34321dab457f00cc0e2a"
     end
   end
 
